@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FCFD07B22CFED6E3005BBA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD07932CFED6E1005BBA50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFD079A2CFED6E1005BBA50;
+			remoteInfo = "PavanJain-DemoTask";
+		};
+		FCFD07BC2CFED6E3005BBA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD07932CFED6E1005BBA50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFD079A2CFED6E1005BBA50;
+			remoteInfo = "PavanJain-DemoTask";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCFD079B2CFED6E1005BBA50 /* PavanJain-DemoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PavanJain-DemoTask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFD07B12CFED6E3005BBA50 /* PavanJain-DemoTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PavanJain-DemoTaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFD07BB2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PavanJain-DemoTaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FCFD07C32CFED6E3005BBA50 /* Exceptions for "PavanJain-DemoTask" folder in "PavanJain-DemoTask" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FCFD079A2CFED6E1005BBA50 /* PavanJain-DemoTask */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FCFD079D2CFED6E1005BBA50 /* PavanJain-DemoTask */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FCFD07C32CFED6E3005BBA50 /* Exceptions for "PavanJain-DemoTask" folder in "PavanJain-DemoTask" target */,
+			);
+			path = "PavanJain-DemoTask";
+			sourceTree = "<group>";
+		};
+		FCFD07B42CFED6E3005BBA50 /* PavanJain-DemoTaskTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PavanJain-DemoTaskTests";
+			sourceTree = "<group>";
+		};
+		FCFD07BE2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PavanJain-DemoTaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFD07982CFED6E1005BBA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD07AE2CFED6E3005BBA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD07B82CFED6E3005BBA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFD07922CFED6E1005BBA50 = {
+			isa = PBXGroup;
+			children = (
+				FCFD079D2CFED6E1005BBA50 /* PavanJain-DemoTask */,
+				FCFD07B42CFED6E3005BBA50 /* PavanJain-DemoTaskTests */,
+				FCFD07BE2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests */,
+				FCFD079C2CFED6E1005BBA50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFD079C2CFED6E1005BBA50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFD079B2CFED6E1005BBA50 /* PavanJain-DemoTask.app */,
+				FCFD07B12CFED6E3005BBA50 /* PavanJain-DemoTaskTests.xctest */,
+				FCFD07BB2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFD079A2CFED6E1005BBA50 /* PavanJain-DemoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFD07C42CFED6E3005BBA50 /* Build configuration list for PBXNativeTarget "PavanJain-DemoTask" */;
+			buildPhases = (
+				FCFD07972CFED6E1005BBA50 /* Sources */,
+				FCFD07982CFED6E1005BBA50 /* Frameworks */,
+				FCFD07992CFED6E1005BBA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FCFD079D2CFED6E1005BBA50 /* PavanJain-DemoTask */,
+			);
+			name = "PavanJain-DemoTask";
+			packageProductDependencies = (
+			);
+			productName = "PavanJain-DemoTask";
+			productReference = FCFD079B2CFED6E1005BBA50 /* PavanJain-DemoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFD07B02CFED6E3005BBA50 /* PavanJain-DemoTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFD07C92CFED6E3005BBA50 /* Build configuration list for PBXNativeTarget "PavanJain-DemoTaskTests" */;
+			buildPhases = (
+				FCFD07AD2CFED6E3005BBA50 /* Sources */,
+				FCFD07AE2CFED6E3005BBA50 /* Frameworks */,
+				FCFD07AF2CFED6E3005BBA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFD07B32CFED6E3005BBA50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCFD07B42CFED6E3005BBA50 /* PavanJain-DemoTaskTests */,
+			);
+			name = "PavanJain-DemoTaskTests";
+			packageProductDependencies = (
+			);
+			productName = "PavanJain-DemoTaskTests";
+			productReference = FCFD07B12CFED6E3005BBA50 /* PavanJain-DemoTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCFD07BA2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFD07CC2CFED6E3005BBA50 /* Build configuration list for PBXNativeTarget "PavanJain-DemoTaskUITests" */;
+			buildPhases = (
+				FCFD07B72CFED6E3005BBA50 /* Sources */,
+				FCFD07B82CFED6E3005BBA50 /* Frameworks */,
+				FCFD07B92CFED6E3005BBA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFD07BD2CFED6E3005BBA50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCFD07BE2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests */,
+			);
+			name = "PavanJain-DemoTaskUITests";
+			packageProductDependencies = (
+			);
+			productName = "PavanJain-DemoTaskUITests";
+			productReference = FCFD07BB2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFD07932CFED6E1005BBA50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FCFD079A2CFED6E1005BBA50 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FCFD07B02CFED6E3005BBA50 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FCFD079A2CFED6E1005BBA50;
+					};
+					FCFD07BA2CFED6E3005BBA50 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FCFD079A2CFED6E1005BBA50;
+					};
+				};
+			};
+			buildConfigurationList = FCFD07962CFED6E1005BBA50 /* Build configuration list for PBXProject "PavanJain-DemoTask" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFD07922CFED6E1005BBA50;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FCFD079C2CFED6E1005BBA50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFD079A2CFED6E1005BBA50 /* PavanJain-DemoTask */,
+				FCFD07B02CFED6E3005BBA50 /* PavanJain-DemoTaskTests */,
+				FCFD07BA2CFED6E3005BBA50 /* PavanJain-DemoTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFD07992CFED6E1005BBA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD07AF2CFED6E3005BBA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD07B92CFED6E3005BBA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFD07972CFED6E1005BBA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD07AD2CFED6E3005BBA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD07B72CFED6E3005BBA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFD07B32CFED6E3005BBA50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFD079A2CFED6E1005BBA50 /* PavanJain-DemoTask */;
+			targetProxy = FCFD07B22CFED6E3005BBA50 /* PBXContainerItemProxy */;
+		};
+		FCFD07BD2CFED6E3005BBA50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFD079A2CFED6E1005BBA50 /* PavanJain-DemoTask */;
+			targetProxy = FCFD07BC2CFED6E3005BBA50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCFD07C52CFED6E3005BBA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PavanJain-DemoTask/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doctopdf.tyfone.org.PavanJain-DemoTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCFD07C62CFED6E3005BBA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PavanJain-DemoTask/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doctopdf.tyfone.org.PavanJain-DemoTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCFD07C72CFED6E3005BBA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCFD07C82CFED6E3005BBA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFD07CA2CFED6E3005BBA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doctopdf.tyfone.org.PavanJain-DemoTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PavanJain-DemoTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PavanJain-DemoTask";
+			};
+			name = Debug;
+		};
+		FCFD07CB2CFED6E3005BBA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doctopdf.tyfone.org.PavanJain-DemoTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PavanJain-DemoTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PavanJain-DemoTask";
+			};
+			name = Release;
+		};
+		FCFD07CD2CFED6E3005BBA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doctopdf.tyfone.org.PavanJain-DemoTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PavanJain-DemoTask";
+			};
+			name = Debug;
+		};
+		FCFD07CE2CFED6E3005BBA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doctopdf.tyfone.org.PavanJain-DemoTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PavanJain-DemoTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFD07962CFED6E1005BBA50 /* Build configuration list for PBXProject "PavanJain-DemoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFD07C72CFED6E3005BBA50 /* Debug */,
+				FCFD07C82CFED6E3005BBA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFD07C42CFED6E3005BBA50 /* Build configuration list for PBXNativeTarget "PavanJain-DemoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFD07C52CFED6E3005BBA50 /* Debug */,
+				FCFD07C62CFED6E3005BBA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFD07C92CFED6E3005BBA50 /* Build configuration list for PBXNativeTarget "PavanJain-DemoTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFD07CA2CFED6E3005BBA50 /* Debug */,
+				FCFD07CB2CFED6E3005BBA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFD07CC2CFED6E3005BBA50 /* Build configuration list for PBXNativeTarget "PavanJain-DemoTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFD07CD2CFED6E3005BBA50 /* Debug */,
+				FCFD07CE2CFED6E3005BBA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFD07932CFED6E1005BBA50 /* Project object */;
+}
